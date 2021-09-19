@@ -21,7 +21,9 @@ org\n3r\idworker\IdWorker.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$1.class
 org\n3r\idworker\utils\Serializes.class
 imooc\enums\Sex.class
+imooc\utils\CookieUtils.class
 org\n3r\idworker\InvalidSystemClock.class
 org\n3r\idworker\utils\Ip.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$2.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy.class
+imooc\utils\JsonUtils.class
