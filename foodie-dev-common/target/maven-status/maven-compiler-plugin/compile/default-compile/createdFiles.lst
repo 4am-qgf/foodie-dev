@@ -1,3 +1,4 @@
+imooc\utils\DesensitizationUtil.class
 org\n3r\idworker\Id.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy.class
 org\n3r\idworker\utils\HttpReq.class
@@ -23,6 +24,7 @@ org\n3r\idworker\IdWorker.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$1.class
 org\n3r\idworker\utils\Serializes.class
 imooc\enums\Sex.class
+imooc\utils\PagedGridResult.class
 imooc\utils\CookieUtils.class
 org\n3r\idworker\InvalidSystemClock.class
 org\n3r\idworker\utils\Ip.class
