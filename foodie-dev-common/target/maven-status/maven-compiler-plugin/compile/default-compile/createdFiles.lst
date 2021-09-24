@@ -1,3 +1,4 @@
+imooc\enums\OrderStatusEnum.class
 imooc\utils\DesensitizationUtil.class
 org\n3r\idworker\Id.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy.class
@@ -6,6 +7,7 @@ imooc\utils\MD5Utils.class
 org\n3r\idworker\Code.class
 org\n3r\idworker\strategy\FileLock.class
 imooc\utils\DateUtil.class
+imooc\utils\MobileEmailUtils.class
 org\n3r\idworker\Test.class
 org\n3r\idworker\Sid$1.class
 org\n3r\idworker\utils\Props.class
@@ -24,6 +26,7 @@ org\n3r\idworker\IdWorker.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$1.class
 org\n3r\idworker\utils\Serializes.class
 imooc\enums\Sex.class
+imooc\enums\PayMethod.class
 imooc\utils\PagedGridResult.class
 imooc\utils\CookieUtils.class
 org\n3r\idworker\InvalidSystemClock.class
