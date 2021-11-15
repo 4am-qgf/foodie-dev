@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class MobileEmailUtils {
 
     public static boolean checkMobileIsOk(String mobile) {
-        String regex = "^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(17[013678])|(18[0,5-9]))\\d{8}$";
+        String regex = "^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(17[013678])|(18[0-9]))\\d{8}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(mobile);
         boolean isMatch = m.matches();

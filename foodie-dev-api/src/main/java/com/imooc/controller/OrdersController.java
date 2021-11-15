@@ -1,5 +1,6 @@
 package com.imooc.controller;
 
+import com.imooc.pojo.OrderStatus;
 import com.imooc.pojo.bo.SubmitOrderBO;
 import com.imooc.pojo.vo.MerchantOrdersVO;
 import com.imooc.pojo.vo.OrderVO;
@@ -94,5 +95,11 @@ public class OrdersController extends BaseController {
     public Integer notifyMerchantOrderPaid(String merchantOrderId) {
         orderService.updateOrderStatus(merchantOrderId, OrderStatusEnum.WAIT_DELIVER.type);
         return HttpStatus.OK.value();
+    }
+
+    @PostMapping("getPaidOrderPaid")
+    public IMOOCJSONResult getOrderPaidInfo(String orderId) {
+        OrderStatus orderStatus = orderService.queryOrderStatusInfo(orderId);
+        return IMOOCJSONResult.ok(orderStatus);
     }
 }
